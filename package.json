@@ -1,0 +1,30 @@
+{
+  "name": "ci_lab",
+  "version": "1.0.0",
+  "description": "This repository is for CS 498 Continuous Integration In-Class Lab.",
+  "main": "src/main/app.js",
+  "scripts": {
+    "start": "node src/main/app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --exit \\\"src/test/cases/**/*.js\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnelson888/CILab.git"
+  },
+  "author": "Chad Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnelson888/CILab/issues"
+  },
+  "homepage": "https://github.com/cnelson888/CILab#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2"
+  }
+}
